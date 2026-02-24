@@ -16,8 +16,7 @@ En praktisk workshop hvor vi udforsker den nye verden af **agentic software engi
 |-----|------|---------|
 | 20 min | Intro, Recap & Polyglot Notebooks | |
 | 70 min | Agenter - teori og byg din egen | **Øvelse 1:** Tool Execute-funktioner, **Øvelse 2:** Human-in-the-loop |
-| 15 min | Abstraktionsstigen – OllamaSharp.Tool | *Valgfri* |
-| 15 min | *Pause* | |
+| 20 min | *Pause* | |
 | 45 min | Abstraktionsstigen – MCP | **Øvelse 3:** AIFunction Tools |
 | 20 min | Extension: get_nearest_station | **Øvelse 4:** Nyt tool |
 | 25 min | Skills – teori og prøv med GitHub Copilot | SKILL.md |
@@ -73,6 +72,7 @@ Lige denne planche er meget relevant mht. dagens seance: [How LLMs Learn: The Th
 - `.dib` format (tidligere `.dotnet-interactive`)
 - Kører på .NET Interactive kernel
 - Understøtter flere sprog: C#, F#, HTML, Mermaid, PowerShell, JavaScript, SQL, KQL
+- (Deprecated, men vi bruger det i dag)
 
 ### Sådan kører du en celle
 
@@ -1595,12 +1595,6 @@ Du har nu:
 # Del 4: Skills – teori og prøv med GitHub Copilot
 *25 minutter*
 
-## SEPARAT VEJ
-
-> **Vigtigt:** Dette er en SEPARAT tilgang fra Del 1-3.
-> - Del 1-3: Byg din egen agent med Ollama
-> - Del 4: Udvid GitHub Copilot med domæneviden
-
 ## Fra domæne-specifikke agents til universel kode
 
 **Hvordan vi plejede at tænke:**
@@ -1791,27 +1785,6 @@ Du har nu:
 
 # Afrunding
 *10 minutter*
-
-## To Separate Veje - Recap
-
-### Vej A: Byg Din Egen Agent (Del 1-3)
-
-```
-SimpleTool → OllamaSharp.Tool → MCP Server
-```
-
-- Samme funktionalitet, stigende abstraktion
-- Fuld kontrol, fuld forståelse
-- **Brug når:** Custom agents, embedded systems, specifikke workflows
-
-### Vej B: Udvid en Eksisterende Agent (Del 4)
-
-```
-GitHub Copilot + SKILL.md → Domæneviden
-```
-
-- Byg ikke infrastruktur - tilføj viden
-- **Brug når:** Produktivitet, team workflows, quick wins
 
 ## Key Takeaways
 
