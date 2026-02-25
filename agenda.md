@@ -6,17 +6,15 @@ En konsulent fra Context& guider jer igennem arkitekturen bag agents, Model Cont
 
 ## Agenda (ca. 3,5 timer)
 
-| Tid | Emne |
-|-----|------|
-| 5 min | Opsummering fra sidste gang |
-| 5 min | Intro til Polyglot Notebooks |
-| 15 min | Det agentiske landskab – overblik |
-| 55 min | **Byg en Agent** – teori + øvelse |
-| 15 min | *Pause* |
-| 50 min | MCP-servere – teori + øvelse |
-| 45 min | Skills – teori + øvelse |
-| 25 min | Integration – sæt det hele sammen – teori + øvelse |
-| 5 min | Afrunding |
+| Tid | Emne | Øvelser |
+|-----|------|---------|
+| 20 min | Intro, Recap & Polyglot Notebooks | |
+| 70 min | Agenter - teori og byg din egen | **Øvelse 1:** Tool Execute-funktioner, **Øvelse 2:** Human-in-the-loop |
+| 20 min | *Pause* | |
+| 45 min | Abstraktionsstigen – MCP | **Øvelse 3:** AIFunction Tools |
+| 20 min | Extension: get_nearest_station | **Øvelse 4:** Nyt tool |
+| 25 min | Skills – teori og prøv med GitHub Copilot | SKILL.md |
+| 10 min | Afrunding | |
 
 ## Forberedelse
 
